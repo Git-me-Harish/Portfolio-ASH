@@ -502,4 +502,59 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log("Portfolio JS Initialized Successfully!"); // Confirmation
 
-}); // End DOMContentLoaded
+});
+
+// Inside your contactForm submit event listener in main.js
+
+contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const submitButton = contactForm.querySelector('.form-submit');
+    const originalButtonText = submitButton.textContent;
+
+    // Get form data
+    const formData = new FormData(contactForm);
+    const data = Object.fromEntries(formData.entries()); // Convert FormData to plain object
+
+    submitButton.disabled = true;
+    submitButton.textContent = 'Sending...';
+
+    // Send data to the backend API
+    fetch('http://localhost:5000/api/contact', { // Use your backend URL here
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data), // Send data as JSON
+    })
+    .then(response => {
+        // Check if the response status indicates success (e.g., 201 Created)
+        if (!response.ok) {
+             // If not okay, try to parse error JSON from backend
+             return response.json().then(err => {
+                 throw new Error(err.message || `HTTP error! Status: ${response.status}`);
+             });
+        }
+        return response.json(); // Parse successful JSON response
+    })
+    .then(result => {
+        console.log('Success:', result);
+        submitButton.textContent = 'Message Sent!';
+        contactForm.reset(); // Clear form on success
+        // You could show a success message to the user here
+        alert(result.message); // Simple alert example
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        submitButton.textContent = 'Send Failed!';
+        // Show an error message to the user
+        alert(`Error: ${error.message}`);
+    })
+    .finally(() => {
+        // Re-enable button and reset text after a delay
+        setTimeout(() => {
+            submitButton.disabled = false;
+            submitButton.textContent = originalButtonText;
+        }, 3000);
+    });
+});  // End DOMContentLoaded

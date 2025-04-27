@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - AI & Data Science Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cursor Animation -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    
+    <!-- Navbar -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#hero">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span>znis</span>
+                    </a>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#about">About //</a></li>
+                        <li><a href="#portfolio" class="active">Portfolio</a></li>
+                        <li><a href="#contact">Hire Me</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Hire Me</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-name">
+                        <span class="smile-icon">&#9786;</span> Zainab
+                        <div class="arrow-graphic">
+                            <svg viewBox="0 0 100 100" fill="none" xmlns="P1.jpg">
+                                <path d="M10 50C50 50 70 10 90 50" stroke="black" stroke-width="3"/>
+                                <path d="M80 40L90 50L80 60" stroke="black" stroke-width="3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h1 class="main-heading">
+                        I design <span class="highlight-icon">✍️</span> top <br>
+                        notch <span class="highlight-text">websites</span>
+                    </h1>
+                    <p class="hero-description">
+                        AI & Data Science Undergraduate, crafting intelligent solutions 
+                        and modern web experiences with a passion for innovation.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn primary-btn">See Portfolio</a>
+                        <a href="#about" class="btn secondary-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <div class="frame-dots">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                        <div class="frame-content">
+                            <div class="lightbulb-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9C5 11.38 6.19 13.47 8 14.74V17C8 17.55 8.45 18 9 18H15C15.55 18 16 17.55 16 17V14.74C17.81 13.47 19 11.38 19 9C19 5.13 15.87 2 12 2ZM14 13.7V16H10V13.7C8.48 12.63 7.5 10.91 7.5 9C7.5 6.51 9.51 4.5 12 4.5C14.49 4.5 16.5 6.51 16.5 9C16.5 10.91 15.52 12.63 14 13.7ZM11 20H13V22H11V20Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="smiley-face">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM7 9.5C7 8.67 7.67 8 8.5 8C9.33 8 10 8.67 10 9.5C10 10.33 9.33 11 8.5 11C7.67 11 7 10.33 7 9.5ZM16 17H8C7.45 17 7 16.55 7 16C7 15.45 7.45 15 8 15H16C16.55 15 17 15.45 17 16C17 16.55 16.55 17 16 17ZM15.5 11C14.67 11 14 10.33 14 9.5C14 8.67 14.67 8 15.5 8C16.33 8 17 8.67 17 9.5C17 10.33 16.33 11 15.5 11Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div class="star-accent">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decorative-elements">
+            <div class="dec-element sun">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <path d="M50 10L50 0M50 100L50 90M10 50L0 50M100 50L90 50M22 22L15 15M78 78L85 85M22 78L15 85M78 22L85 15" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="50" cy="50" r="5" fill="currentColor"/>
+                </svg>
+            </div>
+            <div class="dec-element star-1">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 0L61 39H100L69 63L80 100L50 76L20 100L31 63L0 39H39L50 0Z" fill="currentColor"/>
+                </svg>
+            </div>
+            <div class="dec-element star-2">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 0L61 39H100L69 63L80 100L50 76L20 100L31 63L0 39H39L50 0Z" fill="currentColor"/>
+                </svg>
+            </div>
+        </div>
+    </section>    <!-- ================================================== -->
+    <!-- MISSING HTML STRUCTURE STARTS HERE                -->
+    <!-- ================================================== -->
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+          <div class="section-header">
+              <h2 class="section-title">About <span class="highlight-text">Me</span></h2>
+              <p class="section-subtitle">AI & Data Science Undergraduate driving innovation</p>
+          </div>
+
+          <div class="about-content">
+              <div class="about-image-container">
+                  <div class="about-image">
+                      <img src="https://via.placeholder.com/400x500" alt="Zainab Portrait" class="portrait-img"> <!-- Replace with actual image path -->
+                      <div class="image-decorations">
+                          <div class="dec-circle"></div>
+                          <div class="dec-dots">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                          </div>
+                          <div class="tech-icon ai-icon">
+                              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14L16 12V8L12 6L8 8V12L12 14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                          </div>
+                          <div class="tech-icon data-icon">
+                              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="about-text">
+                  <div class="about-bio">
+                      <p>Hi there! I'm Zainab, an AI & Data Science undergraduate with a passion for creating intelligent solutions and modern web experiences. I blend analytical thinking with creative design to build innovative applications that solve real-world problems.</p>
+                      <p>Specializing in machine learning algorithms, data visualization, and modern web development, I strive to bridge the gap between complex AI technologies and user-friendly interfaces.</p>
+                  </div>
+
+                  <div class="about-stats">
+                      <div class="stat-item">
+                          <div class="stat-number">10+</div>
+                          <div class="stat-label">Projects Completed</div>
+                      </div>
+                      <div class="stat-item">
+                          <div class="stat-number">3+</div>
+                          <div class="stat-label">Years Experience</div>
+                      </div>
+                      <div class="stat-item">
+                          <div class="stat-number">5+</div>
+                          <div class="stat-label">Hackathons Won</div>
+                      </div>
+                  </div>
+
+                  <div class="skills-container">
+                      <h3 class="skills-title">My Skills</h3>
+                      <div class="skills-grid">
+                          <div class="skill-card">
+                              <div class="skill-icon">
+                                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>
+                              </div>
+                              <h4>Machine Learning</h4>
+                              <p>TensorFlow, PyTorch, scikit-learn</p>
+                          </div>
+                          <div class="skill-card">
+                              <div class="skill-icon">
+                                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                              </div>
+                              <h4>Data Science</h4>
+                              <p>Pandas, NumPy, Data Visualization</p>
+                          </div>
+                          <div class="skill-card">
+                              <div class="skill-icon">
+                                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                              </div>
+                              <h4>Web Development</h4>
+                              <p>HTML/CSS, JavaScript, React</p>
+                          </div>
+                          <div class="skill-card">
+                              <div class="skill-icon">
+                                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 4H3C1.89543 4 1 4.89543 1 6V18C1 19.1046 1.89543 20 3 20H21C22.1046 20 23 19.1046 23 18V6C23 4.89543 22.1046 4 21 4Z" stroke="currentColor" stroke-width="2"/><path d="M1 10H23" stroke="currentColor" stroke-width="2"/><path d="M8 15H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                              </div>
+                              <h4>UI/UX Design</h4>
+                              <p>Figma, Adobe XD, User Research</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="about-cta">
+                      <a href="#experience" class="btn primary-btn">See My Experience</a>
+                      <a href="#" class="btn secondary-btn">Download Resume</a> <!-- Add actual resume link -->
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section">
+      <div class="container">
+          <div class="section-header">
+              <h2 class="section-title">My <span class="highlight-text">Projects</span></h2>
+              <p class="section-subtitle">Showcasing my work in AI, Data Science, and Web Development</p>
+          </div>
+
+          <div class="portfolio-filter">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="ai">AI & ML</button>
+              <button class="filter-btn" data-filter="data">Data Science</button>
+              <button class="filter-btn" data-filter="web">Web Dev</button>
+          </div>
+
+          <div class="portfolio-grid">
+              <!-- Project 1 -->
+              <div class="portfolio-item" data-category="ai data">
+                  <div class="portfolio-card">
+                      <div class="portfolio-img">
+                          <img src="https://via.placeholder.com/600x400/ffdd00/000000?text=Project+1" alt="Sentiment Analysis Project"> <!-- Replace with actual image path -->
+                          <div class="portfolio-overlay">
+                              <div class="portfolio-links">
+                                  <a href="#" class="portfolio-link" aria-label="View Project Demo">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 3H21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                                  <a href="#" class="portfolio-link" aria-label="View Project Details">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 19C4.58 19 1 15.42 1 11C1 6.58 4.58 3 9 3C13.42 3 17 6.58 17 11C17 15.42 13.42 19 9 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 23L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-content">
+                          <div class="portfolio-tags">
+                              <span class="tag">TensorFlow</span>
+                              <span class="tag">NLP</span>
+                          </div>
+                          <h3 class="portfolio-title">Sentiment Analysis Tool</h3>
+                          <p class="portfolio-description">A machine learning model that analyzes text data to determine emotional sentiment, used for social media monitoring.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="portfolio-item" data-category="ai">
+                  <div class="portfolio-card">
+                      <div class="portfolio-img">
+                         <img src="https://via.placeholder.com/600x400/a0d7e7/000000?text=Project+2" alt="Image Classification Project"> <!-- Replace with actual image path -->
+                          <div class="portfolio-overlay">
+                              <div class="portfolio-links">
+                                   <a href="#" class="portfolio-link" aria-label="View Project Demo">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 3H21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                                  <a href="#" class="portfolio-link" aria-label="View Project Details">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 19C4.58 19 1 15.42 1 11C1 6.58 4.58 3 9 3C13.42 3 17 6.58 17 11C17 15.42 13.42 19 9 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 23L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-content">
+                          <div class="portfolio-tags">
+                              <span class="tag">CNN</span>
+                              <span class="tag">PyTorch</span>
+                          </div>
+                          <h3 class="portfolio-title">Image Classification System</h3>
+                          <p class="portfolio-description">A convolutional neural network that classifies images with high accuracy using transfer learning techniques.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="portfolio-item" data-category="data">
+                   <div class="portfolio-card">
+                      <div class="portfolio-img">
+                         <img src="https://via.placeholder.com/600x400/ffb6c1/000000?text=Project+3" alt="Data Visualization Dashboard"> <!-- Replace with actual image path -->
+                          <div class="portfolio-overlay">
+                              <div class="portfolio-links">
+                                   <a href="#" class="portfolio-link" aria-label="View Project Demo">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 3H21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                                  <a href="#" class="portfolio-link" aria-label="View Project Details">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 19C4.58 19 1 15.42 1 11C1 6.58 4.58 3 9 3C13.42 3 17 6.58 17 11C17 15.42 13.42 19 9 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 23L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-content">
+                          <div class="portfolio-tags">
+                              <span class="tag">D3.js</span>
+                              <span class="tag">Python</span>
+                          </div>
+                          <h3 class="portfolio-title">Interactive Data Dashboard</h3>
+                          <p class="portfolio-description">Real-time data visualization dashboard for monitoring and analyzing business metrics and performance indicators.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Project 4 -->
+              <div class="portfolio-item" data-category="web">
+                  <div class="portfolio-card">
+                      <div class="portfolio-img">
+                         <img src="https://via.placeholder.com/600x400/f7f7f7/000000?text=Project+4" alt="E-commerce Website"> <!-- Replace with actual image path -->
+                          <div class="portfolio-overlay">
+                              <div class="portfolio-links">
+                                  <a href="#" class="portfolio-link" aria-label="View Project Demo">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 3H21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                                  <a href="#" class="portfolio-link" aria-label="View Project Details">
+                                      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 19C4.58 19 1 15.42 1 11C1 6.58 4.58 3 9 3C13.42 3 17 6.58 17 11C17 15.42 13.42 19 9 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 23L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="portfolio-content">
+                          <div class="portfolio-tags">
+                              <span class="tag">React</span>
+                              <span class="tag">Node.js</span>
+                          </div>
+                          <h3 class="portfolio-title">Modern E-commerce Platform</h3>
+                          <p class="portfolio-description">Full-stack e-commerce solution with secure payment integration, user authentication, and responsive design.</p>
+                      </div>
+                  </div>
+              </div>
+               <!-- Add more portfolio items as needed, matching the structure above -->
+          </div>
+
+          <div class="portfolio-cta">
+              <a href="#portfolio" class="btn primary-btn">View All Projects</a> <!-- Link to a dedicated page if needed -->
+              <a href="#contact" class="btn secondary-btn">Work With Me</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section">
+      <div class="container">
+          <div class="section-header">
+              <h2 class="section-title">My <span class="highlight-text">Experience</span></h2>
+              <p class="section-subtitle">Where I've worked and what I've built</p>
+          </div>
+
+          <div class="experience-content">
+              <!-- Work & Internship Experience -->
+              <div class="experience-column">
+                  <h3 class="column-title">
+                      <div class="title-icon">
+                          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V6C4 4.89543 4.89543 4 6 4H18C19.1046 4 20 4.89543 20 6Z" stroke="currentColor" stroke-width="2"/><path d="M16 2V4M8 2V4M4 10H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </div>
+                      Work Experience
+                  </h3>
+
+                  <div class="timeline">
+                      <div class="timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-content">
+                              <div class="timeline-header">
+                                  <h4>Internship at Kumaraguru College of Technology</h4>
+                                  <span class="timeline-date">Apr 2024 - Jun 2024</span>
+                              </div>
+                              <div class="timeline-role">Development of an Online Test Platform</div>
+                              <p class="timeline-description">
+                                  Created a new application aimed at administering online tests to gather data on student procrastination factors. Developed an intuitive interface for students and instructors.
+                              </p>
+                              <div class="timeline-tags">
+                                  <span class="tag">Web Development</span>
+                                  <span class="tag">UI/UX</span>
+                                  <span class="tag">Data Collection</span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-content">
+                              <div class="timeline-header">
+                                  <h4>Research Assistant</h4>
+                                   <span class="timeline-date">Jan 2024 - Mar 2024</span>
+                              </div>
+                              <div class="timeline-role">AI Research Laboratory</div>
+                              <p class="timeline-description">
+                                  Assisted in developing ML models for NLP applications. Conducted data preprocessing, model training, and evaluation tasks.
+                              </p>
+                              <div class="timeline-tags">
+                                  <span class="tag">Machine Learning</span>
+                                  <span class="tag">NLP</span>
+                                  <span class="tag">Python</span>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Add more timeline items as needed -->
+                  </div>
+              </div>
+
+              <!-- Hackathons & Projects -->
+              <div class="experience-column">
+                  <h3 class="column-title">
+                      <div class="title-icon">
+                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L1 12L12 22L23 12L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 16L16 12L12 8M8 12L12 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </div>
+                      Hackathons & Projects
+                  </h3>
+
+                  <div class="projects-grid">
+                      <div class="project-card">
+                          <div class="project-top">
+                              <div class="project-icon hackathon-icon">
+                                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2"/></svg>
+                              </div>
+                              <div class="project-badge">Winner</div>
+                          </div>
+                          <h4>AI Healthcare Hackathon</h4>
+                          <p>Developed an ML-powered diagnostic assistant for medical images with 94% accuracy.</p>
+                          <div class="project-tags">
+                              <span class="tag">TensorFlow</span>
+                              <span class="tag">Comp Vision</span>
+                              <span class="tag">Healthcare</span>
+                          </div>
+                      </div>
+
+                      <div class="project-card">
+                          <div class="project-top">
+                              <div class="project-icon">
+                                   <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="2" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="2"/><path d="M7.5 10.5L10.5 13.5L16.5 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                              </div>
+                          </div>
+                          <h4>Smart City Data Platform</h4>
+                          <p>Created a real-time data visualization platform for monitoring urban infrastructure.</p>
+                          <div class="project-tags">
+                              <span class="tag">Data Analysis</span>
+                              <span class="tag">Python</span>
+                              <span class="tag">IoT</span>
+                          </div>
+                      </div>
+                     <!-- Add more project cards as needed -->
+                  </div>
+              </div>
+          </div>
+
+          <div class="experience-cta">
+              <a href="#portfolio" class="btn primary-btn">View All Projects</a>
+          </div>
+      </div>
+
+      <!-- Decorative Elements -->
+      <div class="experience-decorations">
+          <div class="dec-element exp-circle"></div>
+          <div class="dec-element exp-dots">
+              <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="dec-element exp-star"></div>
+      </div>
+  </section>
+
+
+  <!-- Skills & Technologies Section -->
+  <section id="skills" class="skills-section">
+      <div class="container">
+          <div class="section-header">
+              <h2 class="section-title">Skills & <span class="highlight-text">Technologies</span></h2>
+              <p class="section-subtitle">My technical toolkit for creating AI-powered solutions</p>
+          </div>
+
+          <div class="skills-categories">
+              <!-- AI & Machine Learning Category -->
+              <div class="skill-category">
+                  <div class="category-header">
+                      <div class="category-icon">
+                          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 12L20 7M12 12L12 22M12 12L4 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </div>
+                      <h3>AI & Machine Learning</h3>
+                  </div>
+                  <div class="skills-progress-grid">
+                      <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">TensorFlow</span><span class="skill-percentage">90%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                      </div>
+                      <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">PyTorch</span><span class="skill-percentage">85%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                      </div>
+                      <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">scikit-learn</span><span class="skill-percentage">95%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+                      </div>
+                       <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">NLP</span><span class="skill-percentage">80%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Data Science & Analytics Category -->
+              <div class="skill-category">
+                   <div class="category-header">
+                      <div class="category-icon">
+                          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      </div>
+                      <h3>Data Science & Analytics</h3>
+                  </div>
+                   <div class="skills-progress-grid">
+                      <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">Pandas</span><span class="skill-percentage">95%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 95%"></div></div>
+                      </div>
+                      <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">NumPy</span><span class="skill-percentage">90%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 90%"></div></div>
+                      </div>
+                      <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">Data Visualization</span><span class="skill-percentage">85%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 85%"></div></div>
+                      </div>
+                       <div class="skill-progress-item">
+                          <div class="skill-info"><span class="skill-name">SQL</span><span class="skill-percentage">80%</span></div>
+                          <div class="progress-bar"><div class="progress-fill" style="width: 80%"></div></div>
+                      </div>
+                  </div>
+              </div>
+               <!-- Add Web Development Category similarly -->
+          </div>
+
+          <!-- Tools Grid -->
+          <div class="tools-section">
+              <h3 class="tools-title">Tools & Technologies</h3>
+              <div class="tools-grid">
+                  <div class="tool-item" data-tool="Python"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">Python</span></div>
+                  <div class="tool-item" data-tool="JavaScript"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">JavaScript</span></div>
+                  <div class="tool-item" data-tool="Jupyter"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">Jupyter</span></div>
+                  <div class="tool-item" data-tool="Git"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">Git</span></div>
+                  <div class="tool-item" data-tool="AWS"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">AWS</span></div>
+                  <div class="tool-item" data-tool="Docker"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">Docker</span></div>
+                  <div class="tool-item" data-tool="VSCode"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">VS Code</span></div>
+                  <div class="tool-item" data-tool="React"><div class="tool-icon"><svg ...></svg></div><span class="tool-name">React</span></div>
+                  <!-- Add SVGs from your Skills section HTML here -->
+              </div>
+          </div>
+
+          <!-- 3D Elements - Technology Sphere -->
+          <div class="tech-sphere-container">
+               <!-- Add canvas element here if you use a JS library like TagCloud -->
+               <canvas id="tech-sphere-canvas" class="tech-sphere" width="500" height="500"></canvas>
+              <div class="sphere-overlay">
+                  <h4>Technologies</h4>
+                  <p>Interactive sphere representing my technical ecosystem</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- Education Section -->
+  <section id="education" class="education-section">
+      <div class="container">
+           <div class="section-header">
+               <h2 class="section-title">My <span class="highlight-text">Education</span></h2>
+               <p class="section-subtitle">Academic background and certifications</p>
+           </div>
+
+           <div class="timeline-container"> <!-- Used from your final HTML structure -->
+               <div class="timeline-line"></div> <!-- Used from your final HTML structure -->
+
+               <!-- Timeline Item 1 -->
+               <div class="timeline-item">
+                   <div class="timeline-dot"></div>
+                   <div class="edu-card"> <!-- Matches final structure -->
+                       <div class="edu-icon">
+                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" stroke-width="2"/><path d="M3 7L12 12L21 7" stroke="currentColor" stroke-width="2"/><path d="M12 22V12" stroke="currentColor" stroke-width="2"/></svg>
+                       </div>
+                       <div class="edu-content">
+                           <h3 class="edu-degree">B.Tech in AI & Data Science</h3>
+                           <p class="edu-school">Kumaraguru College of Technology, Coimbatore</p>
+                           <div class="edu-date">
+                               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/><line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/><line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/><line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/></svg>
+                               2021 - Present
+                           </div>
+                           <p class="edu-description">Focusing on ML, NLP, and data-driven solutions. CGPA: 8.9/10.</p>
+                       </div>
+                   </div>
+               </div>
+
+               <!-- Timeline Item 2 -->
+               <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                   <div class="edu-card">
+                       <div class="edu-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L3 7V17L12 22L21 17V7L12 2Z" stroke="currentColor" stroke-width="2"/><path d="M3 7L12 12L21 7" stroke="currentColor" stroke-width="2"/><path d="M12 22V12" stroke="currentColor" stroke-width="2"/></svg>
+                       </div>
+                       <div class="edu-content">
+                           <h3 class="edu-degree">Higher Secondary Education</h3>
+                           <p class="edu-school">Model School, Chennai</p>
+                            <div class="edu-date">
+                               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/><line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/><line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/><line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/></svg>
+                               2019 - 2021
+                           </div>
+                           <p class="edu-description">Completed with distinction in Maths, Physics, Comp Sci. Graduated with 96%.</p>
+                       </div>
+                   </div>
+               </div>
+               <!-- Add more education items if needed -->
+          </div>
+          <!-- Certifications part was missing in initial request but present in final HTML/CSS, adding it here -->
+           <div class="certifications-container">
+               <h3 class="section-title" style="text-align: center; margin-bottom: 4rem;">Certifications</h3> <!-- Re-using section-title styling -->
+               <div class="projects-grid"> <!-- Re-using projects-grid for layout -->
+                  <!-- Certification Card 1 -->
+                  <div class="project-card"> <!-- Re-using project-card styling -->
+                      <div class="project-top">
+                          <div class="project-icon">
+                              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                          </div>
+                      </div>
+                      <h4>AI & Machine Learning Specialization</h4>
+                      <p>DeepLearning.AI on Coursera</p>
+                      <div class="project-tags"><span class="tag">Issued 2023</span></div>
+                  </div>
+                  <!-- Add more certification cards -->
+               </div>
+           </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+      <div class="container">
+           <div class="section-header">
+               <h2 class="section-title">Get In <span class="highlight-text">Touch</span></h2>
+               <p class="section-subtitle">Let's discuss your project or collaborate!</p>
+           </div>
+
+          <div class="contact-container">
+              <div class="contact-info">
+                  <h3 class="contact-heading">Contact Information</h3>
+                  <p class="contact-description">
+                      Feel free to reach out via email, phone, or connect with me on social media.
+                      I'm always open to new opportunities and collaborations.
+                  </p>
+                  <div class="contact-methods">
+                      <div class="contact-method">
+                          <div class="contact-icon">
+                              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                          </div>
+                          <div class="contact-text">
+                              <span class="contact-label">Email</span>
+                              <a href="mailto:your.email@example.com" class="contact-value">your.email@example.com</a> <!-- Replace -->
+                          </div>
+                      </div>
+                      <div class="contact-method">
+                          <div class="contact-icon">
+                              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                          </div>
+                           <div class="contact-text">
+                              <span class="contact-label">Phone</span>
+                              <a href="tel:+1234567890" class="contact-value">+1 (234) 567-890</a> <!-- Replace -->
+                          </div>
+                      </div>
+                       <div class="contact-method">
+                          <div class="contact-icon">
+                              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                          </div>
+                           <div class="contact-text">
+                              <span class="contact-label">Location</span>
+                              <span class="contact-value">Coimbatore, India</span> <!-- Replace -->
+                          </div>
+                      </div>
+                  </div>
+                  <div class="contact-social">
+                       <h4>Connect With Me</h4>
+                      <div class="social-links">
+                          <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill="currentColor"/><rect x="2" y="9" width="4" height="12" fill="currentColor"/><circle cx="4" cy="4" r="2" fill="currentColor"/></svg></a>
+                          <a href="#" class="social-link" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                          <a href="#" class="social-link" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" fill="currentColor"/></svg></a>
+                           <!-- Add more social links -->
+                      </div>
+                  </div>
+              </div>
+
+              <form class="contact-form">
+                  <div class="form-group">
+                      <label for="name" class="form-label">Your Name</label>
+                      <input type="text" id="name" name="name" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email" class="form-label">Your Email</label>
+                      <input type="email" id="email" name="email" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="subject" class="form-label">Subject</label>
+                      <input type="text" id="subject" name="subject" class="form-control">
+                  </div>
+                  <div class="form-group">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="btn primary-btn form-submit">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+      <div class="container">
+          <div class="footer-content">
+              <div class="footer-column">
+                   <div class="footer-logo">
+                       <div class="footer-logo-icon">
+                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/></svg>
+                      </div>
+                      <span>znis</span> <!-- Same as header logo -->
+                  </div>
+                  <p class="footer-text">AI & Data Science Undergraduate passionate about creating innovative solutions.</p>
+              </div>
+
+              <div class="footer-column">
+                  <h4 class="footer-title">Quick Links</h4>
+                  <ul class="footer-links">
+                      <li><a href="#about" class="footer-link">About Me</a></li>
+                      <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                      <li><a href="#experience" class="footer-link">Experience</a></li>
+                      <li><a href="#contact" class="footer-link">Contact</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer-column">
+                   <h4 class="footer-title">Connect</h4>
+                   <ul class="footer-links">
+                      <li><a href="#" class="footer-link">LinkedIn</a></li>
+                      <li><a href="#" class="footer-link">GitHub</a></li>
+                      <li><a href="#" class="footer-link">Twitter</a></li>
+                      <!-- Add other relevant links -->
+                  </ul>
+              </div>
+
+              <div class="footer-column">
+                  <h4 class="footer-title">Newsletter</h4>
+                   <div class="footer-newsletter">
+                      <p class="newsletter-text">Subscribe for updates on my latest projects and insights.</p>
+                      <form class="newsletter-form">
+                          <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                          <button type="submit" class="newsletter-btn">Subscribe</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+
+          <div class="footer-bottom">
+              <p>© <span id="current-year"></span> Zainab. All Rights Reserved. Designed with <span style="color: var(--accent-pink);">♥</span></p>
+               <!-- Optional: Credit link -->
+               <!-- <p>Design inspired by <a href="#">TemplateSource</a></p> -->
+          </div>
+      </div>
+  </footer>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress"></div>
+
+  <!-- Back to Top Button -->
+  <a href="#hero" class="back-to-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+
+  <!-- ================================================== -->
+  <!-- MISSING HTML STRUCTURE ENDS HERE                  -->
+  <!-- ================================================== -->
+
+  <!-- Scripts (Already present in your original HTML) -->
+  <!-- Make sure you have a main.js or similar for interactivity -->
+   <script src="main.js"></script>  
+
+  <!-- Add this script snippet for dynamic year in footer -->
+  <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
